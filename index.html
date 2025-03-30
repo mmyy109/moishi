@@ -3,33 +3,31 @@
 <head>
     <title>דף הבית שלי</title>
     <style>
-        /* עיצוב בסיסי */
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
+            background-color: #f4f4f4; /* רקע אפור בהיר */
         }
         header {
-            background-color: #f0f0f0;
-            padding: 10px;
+            background-color: #333; /* רקע כהה לכותרת */
+            color: white;
+            padding: 15px;
             display: flex;
             justify-content: space-between;
             align-items: center;
         }
-        .header-right {
-          display: flex;
-        }
         .login-button {
-            background-color: #4CAF50; /* צבע ירוק */
+            background-color: #4CAF50; /* צבע ירוק לכפתור */
             border: none;
             color: white;
-            padding: 8px 16px;
+            padding: 10px 20px;
             text-align: center;
             text-decoration: none;
             display: inline-block;
             font-size: 16px;
-            margin-left: 10px; /* רווח בין הכפתורים */
             cursor: pointer;
+            border-radius: 5px; /* פינות מעוגלות */
         }
         .container {
             text-align: center;
@@ -39,16 +37,19 @@
             border: 1px solid #ccc;
             padding: 20px;
             margin-top: 20px;
+            background-color: white; /* רקע לבן לתצוגה */
+            border-radius: 5px;
+        }
+        a {
+          color: white;
+          text-decoration: none;
         }
     </style>
 </head>
 <body>
     <header>
         <h1>שם האתר שלך</h1>
-        <div class="header-right">
-          <button class="login-button">התחברות</button>
-          <button class="login-button">הרשמה</button>
-        </div>
+        <a href="/login"><button class="login-button">התחברות</button></a>
     </header>
     <div class="container">
         <h1>ברוכים הבאים!</h1>
