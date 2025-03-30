@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>דף הבית שלי</title>
+    <style>
+        /* עיצוב בסיסי */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #f0f0f0;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .header-right {
+          display: flex;
+        }
+        .login-button {
+            background-color: #4CAF50; /* צבע ירוק */
+            border: none;
+            color: white;
+            padding: 8px 16px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin-left: 10px; /* רווח בין הכפתורים */
+            cursor: pointer;
+        }
+        .container {
+            text-align: center;
+            padding: 50px;
+        }
+        .example-display {
+            border: 1px solid #ccc;
+            padding: 20px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>שם האתר שלך</h1>
+        <div class="header-right">
+          <button class="login-button">התחברות</button>
+          <button class="login-button">הרשמה</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>ברוכים הבאים!</h1>
+        <p>טקסט מיועד לשינוי בעתיד...</p>
+        <div class="example-display">
+            <p>תצוגה לדוגמה</p>
+            {כאן תוכל להוסיף תוכן לדוגמה}
+        </div>
+    </div>
+</body>
+</html>
